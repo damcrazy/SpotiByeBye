@@ -16,7 +16,7 @@ def closeSpotify():
 
 
 def openSpotify():
-    os.system('spotify.exe')
+    os.startfile('spotify.exe')
     time.sleep(0.25)
 
 
